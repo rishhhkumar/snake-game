@@ -21,8 +21,9 @@ The game consists of a snake that moves around the board, eating food to grow lo
 4. Game Over: The game ends if the snake hits itself or the walls.
 
 ### Code Structure
-- SnakeGame.java: The main class that sets up the game window, handles the game loop, snake movement, and key events.
-- Inner Class Tile: Represents a tile on the game board, used for the snake's body and food positions.
+- App.java: The entry point of the application. It initializes the game window and starts the game.
+- SnakeGame.java: Contains the main game logic, including the game loop, snake movement, food placement, and rendering.
+- Inner Class Tile: This represents a tile on the game board for the snake's body and food positions.
 
 ### Contributing
 Feel free to fork this repository, make improvements, and submit pull requests. Contributions are welcome!
@@ -32,7 +33,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### Acknowledgements
 Inspiration from classic Snake games.
-Developed using Java Swing for graphical user interface components.
+It is developed using Java Swing for graphical user interface components.
+
 
 
 *Enjoy playing the Snake game and happy coding!*
